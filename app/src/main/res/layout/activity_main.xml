@@ -27,7 +27,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="My Nanodegree Apps!"
+        android:text="@string/nanodegree_apps"
         android:layout_centerHorizontal="true"
         android:gravity="center"
         android:layout_marginTop="10dp"
@@ -37,7 +37,7 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Spotify Streamer"
+        android:text="@string/spotify_button"
         android:id="@+id/button"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
@@ -48,7 +48,7 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Scores App"
+        android:text="@string/scores_button"
         android:id="@+id/button2"
         android:layout_below="@+id/button"
         android:layout_centerHorizontal="true"
@@ -58,7 +58,7 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Library App"
+        android:text="@string/library_button"
         android:id="@+id/button3"
         android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true"
@@ -68,7 +68,7 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Build It Bigger"
+        android:text="@string/build_big_button"
         android:id="@+id/button4"
         android:layout_below="@+id/button3"
         android:layout_centerHorizontal="true"
@@ -78,7 +78,7 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="XYZ Reader"
+        android:text="@string/xyz_button"
         android:id="@+id/button5"
         android:layout_below="@+id/button4"
         android:layout_centerHorizontal="true"
@@ -88,7 +88,7 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Capstone: My Own App"
+        android:text="@string/capstone_button"
         android:id="@+id/button6"
         android:layout_below="@+id/button5"
         android:layout_centerHorizontal="true"
